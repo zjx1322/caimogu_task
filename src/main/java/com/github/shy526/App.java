@@ -20,8 +20,7 @@ public class App
         log.error("启动踩蘑菇获取影响力任务");
         String githubApiToken = System.getenv("MY_GITHUB_API_TOKEN");
         String ownerRepo = System.getenv("OWNER_REPO");
-        String caiMoGuToken ="cmg_token=MTc2NTcxMDI2NYmKpZWC0titgKCuaXzT0Myum9mksM96abPcrrKGdn6dk7CllILNrqiKjZaffNDY27Sb0Gqq2pqj09fKb6JdmsidiX-blt7TZYCfr62XraqRyYmynbCXoG2yttmyh5yGnHmkiNqUlrqoeqDZrYLQsdq0mq5nu7mLo7SmrmiGeYPOfmiPmYK4pp-Afapkjb2pkr94tmS7qXprv6m2aoV1ep2TsKXdgs2uo5R5rmqW4NPZs3XUna65erGxzK6whnVl332gmdmCqLmcgGmVcA; CAIMOGU=6968f341ffc6edc8f1ed663266868c79;";
-        System.getenv("CAI_MO_GU_TOKEN");
+        String caiMoGuToken =  System.getenv("CAI_MO_GU_TOKEN");
         int clout = CaiMoGuHelp.getClout(caiMoGuToken);
         String nickname = CaiMoGuHelp.getNickname(caiMoGuToken);
         log.error("当前用户:{},影响力:{}",nickname,clout);
