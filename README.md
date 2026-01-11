@@ -82,7 +82,7 @@
   - 个人主页回复列表
   
 -  https://api.caimogu.cc/v3/my/info
-  - 用户信息
+   - 用户信息
 
 - https://api.caimogu.cc/v3/login/account
   - 登录
